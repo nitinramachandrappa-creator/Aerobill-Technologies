@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Demos - Aerobill</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="logo">Aerobill Technologies</h1>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="hospitals.html">Hospital HMS</a>
+        <a href="restaurants.html">Restaurant POS</a>
+        <a href="demos.html">Demos</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h2>Request a Demo</h2>
+    <p>Choose a demo type and tell us a little about your organization. We'll contact you to schedule a live walkthrough.</p>
+
+    <form id="demo-form" class="form">
+      <label>Company / Hospital / Restaurant name
+        <input type="text" name="org" required>
+      </label>
+
+      <label>Demo type
+        <select name="type">
+          <option>Hospital Management</option>
+          <option>Restaurant POS</option>
+        </select>
+      </label>
+
+      <label>Contact email
+        <input type="email" name="email" required>
+      </label>
+
+      <label>Message
+        <textarea name="message"></textarea>
+      </label>
+
+      <p><button class="btn" type="submit">Request Demo</button></p>
+    </form>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; Aerobill Technologies</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
