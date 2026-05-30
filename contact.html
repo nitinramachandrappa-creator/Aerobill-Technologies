@@ -9,41 +9,76 @@
 <body>
   <header class="site-header">
     <div class="container">
-      <h1 class="logo">Aerobill Technologies</h1>
-      <nav>
-        <a href="index.html">Home</a>
-        <a href="hospitals.html">Hospital HMS</a>
-        <a href="restaurants.html">Restaurant POS</a>
-        <a href="demos.html">Demos</a>
-        <a href="contact.html">Contact</a>
+      <a class="brand" href="index.html"><span>Aerobill</span><small>Technologies</small></a>
+      <nav class="nav-links">
+        <a class="nav-link" href="index.html">Home</a>
+        <a class="nav-link" href="hospitals.html">Hospital HMS</a>
+        <a class="nav-link" href="restaurants.html">Restaurant POS</a>
+        <a class="nav-link" href="demos.html">Demos</a>
+        <a class="nav-link active" href="contact.html">Contact</a>
       </nav>
+      <a class="btn btn-outline" href="demos.html">Book Demo</a>
     </div>
   </header>
 
-  <main class="container">
-    <h2>Contact Us</h2>
-    <p>Send us a message and we'll get back to you within one business day.</p>
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <p class="eyebrow">Get in touch</p>
+          <h1 class="hero-title">We’re ready to help your hospital or restaurant grow.</h1>
+          <p class="hero-copy">Questions about Aerobill? Send us a message and our team will reply within one business day.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#contact-form">Send a Message</a>
+            <a class="btn btn-outline" href="demos.html">Book a Demo</a>
+          </div>
+        </div>
+        <div class="hero-media">
+          <div class="hero-panel">
+            <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=900&q=80" alt="Contact business support">
+          </div>
+        </div>
+      </div>
+    </section>
 
-    <form id="contact-form" class="form">
-      <label>Name
-        <input type="text" name="name" required>
-      </label>
+    <section class="container section-split">
+      <div class="split-grid">
+        <div class="split-card">
+          <h3>Contact details</h3>
+          <p>Email us at <a href="mailto:contact@aerobill.com">contact@aerobill.com</a></p>
+          <p>We support hospitals and restaurants with setup, training, and demos.</p>
+        </div>
+        <div class="split-card">
+          <h3>Office hours</h3>
+          <p>Monday to Friday</p>
+          <p>9:00 AM – 6:00 PM</p>
+        </div>
+      </div>
+    </section>
 
-      <label>Email
-        <input type="email" name="email" required>
-      </label>
-
-      <label>Message
-        <textarea name="message" required></textarea>
-      </label>
-
-      <p><button class="btn" type="submit">Send Message</button></p>
-    </form>
+    <section class="container">
+      <form id="contact-form" class="form">
+        <label>Name
+          <input type="text" name="name" required>
+        </label>
+        <label>Email
+          <input type="email" name="email" required>
+        </label>
+        <label>Organization
+          <input type="text" name="org" required>
+        </label>
+        <label>Message
+          <textarea name="message" required placeholder="How can we help you today?"></textarea>
+        </label>
+        <button class="btn btn-primary" type="submit">Send Message</button>
+      </form>
+    </section>
   </main>
 
   <footer class="site-footer">
     <div class="container">
-      <p>&copy; Aerobill Technologies</p>
+      <p>&copy; 2026 Aerobill Technologies</p>
+      <div class="footer-links"><a class="footer-link" href="demos.html">Request Demo</a><a class="footer-link" href="index.html">Back to Home</a></div>
     </div>
   </footer>
 

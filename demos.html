@@ -9,48 +9,88 @@
 <body>
   <header class="site-header">
     <div class="container">
-      <h1 class="logo">Aerobill Technologies</h1>
-      <nav>
-        <a href="index.html">Home</a>
-        <a href="hospitals.html">Hospital HMS</a>
-        <a href="restaurants.html">Restaurant POS</a>
-        <a href="demos.html">Demos</a>
-        <a href="contact.html">Contact</a>
+      <a class="brand" href="index.html"><span>Aerobill</span><small>Technologies</small></a>
+      <nav class="nav-links">
+        <a class="nav-link" href="index.html">Home</a>
+        <a class="nav-link" href="hospitals.html">Hospital HMS</a>
+        <a class="nav-link" href="restaurants.html">Restaurant POS</a>
+        <a class="nav-link active" href="demos.html">Demos</a>
+        <a class="nav-link" href="contact.html">Contact</a>
       </nav>
+      <a class="btn btn-outline" href="contact.html">Contact Us</a>
     </div>
   </header>
 
-  <main class="container">
-    <h2>Request a Demo</h2>
-    <p>Choose a demo type and tell us a little about your organization. We'll contact you to schedule a live walkthrough.</p>
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <p class="eyebrow">Live demo scheduling</p>
+          <h1 class="hero-title">See Aerobill in action with a personalized walkthrough.</h1>
+          <p class="hero-copy">Choose the product you want to explore and we’ll schedule a demo to match your hospital or restaurant needs.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#demo-form">Book a Demo</a>
+            <a class="btn btn-outline" href="contact.html">Ask a Question</a>
+          </div>
+        </div>
+        <div class="hero-media">
+          <div class="hero-panel">
+            <img src="https://images.unsplash.com/photo-1524253482453-3fed8d2fe12b?auto=format&fit=crop&w=900&q=80" alt="Demo meeting">
+          </div>
+        </div>
+      </div>
+    </section>
 
-    <form id="demo-form" class="form">
-      <label>Company / Hospital / Restaurant name
-        <input type="text" name="org" required>
-      </label>
+    <section class="container section-split">
+      <div class="split-grid">
+        <div class="split-card">
+          <h3>How it works</h3>
+          <ul>
+            <li>Tell us about your organization.</li>
+            <li>Choose the demo type: hospital or restaurant.</li>
+            <li>We schedule a live walkthrough for your team.</li>
+          </ul>
+        </div>
+        <div class="split-card">
+          <h3>What you’ll see</h3>
+          <ul>
+            <li>Dashboard and key workflows</li>
+            <li>Patient and order management</li>
+            <li>Billing, inventory, and reports</li>
+          </ul>
+        </div>
+      </div>
+    </section>
 
-      <label>Demo type
-        <select name="type">
-          <option>Hospital Management</option>
-          <option>Restaurant POS</option>
-        </select>
-      </label>
-
-      <label>Contact email
-        <input type="email" name="email" required>
-      </label>
-
-      <label>Message
-        <textarea name="message"></textarea>
-      </label>
-
-      <p><button class="btn" type="submit">Request Demo</button></p>
-    </form>
+    <section class="container">
+      <form id="demo-form" class="form">
+        <label>Name
+          <input type="text" name="name" required>
+        </label>
+        <label>Company / Hospital / Restaurant
+          <input type="text" name="org" required>
+        </label>
+        <label>Email
+          <input type="email" name="email" required>
+        </label>
+        <label>Demo type
+          <select name="type" required>
+            <option>Hospital Management</option>
+            <option>Restaurant POS</option>
+          </select>
+        </label>
+        <label>Message
+          <textarea name="message" placeholder="Tell us about your current setup or goals"></textarea>
+        </label>
+        <button class="btn btn-primary" type="submit">Request Demo</button>
+      </form>
+    </section>
   </main>
 
   <footer class="site-footer">
     <div class="container">
-      <p>&copy; Aerobill Technologies</p>
+      <p>&copy; 2026 Aerobill Technologies</p>
+      <div class="footer-links"><a class="footer-link" href="mailto:contact@aerobill.com">contact@aerobill.com</a><a class="footer-link" href="index.html">Back to Home</a></div>
     </div>
   </footer>
 

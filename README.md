@@ -1,24 +1,21 @@
 # Aerobill Technologies — Website
 
-Simple static website for Aerobill Technologies showcasing Hospital Management Software and Restaurant POS with demo booking and contact forms.
+A polished static website for Aerobill Technologies featuring hospital management and restaurant POS solutions with a modern homepage, product pages, demo booking, and contact form.
 
-Quick start:
-
-Open `index.html` in your browser (double-click or serve with a static server).
-
-To serve locally using Python 3:
+## Preview locally
+Open `index.html` in your browser, or serve the site with a local static server.
 
 ```bash
+cd c:\Users\DELL\Desktop\website
 python -m http.server 8000
 ```
 
 Then visit `http://localhost:8000`.
 
-Deploy: You can host these static files on GitHub Pages, Netlify, or any static hosting provider.
+## GitHub Pages deploy
+This site includes a GitHub Actions workflow at `.github/workflows/deploy.yml` to deploy the site automatically when you push to the `main` branch.
 
-GitHub Pages deploy
-
-1. Push this repository to GitHub (create a repo and push `main`).
+1. Push this repository to GitHub.
 
 ```bash
 git init
@@ -29,10 +26,10 @@ git remote add origin https://github.com/<your-username>/<your-repo>.git
 git push -u origin main
 ```
 
-2. The included GitHub Actions workflow (`.github/workflows/deploy.yml`) will upload the site artifact and deploy it to GitHub Pages automatically when you push to `main`.
+2. Enable GitHub Pages in repository settings with branch `main` and folder `/ (root)`.
 
 3. After the workflow runs, your site will be available at `https://<your-username>.github.io/<your-repo>/`.
 
-Next steps:
-- Wire the forms to a real backend or form service (e.g., Formspree, Netlify Forms).
-- Add company branding, images, and screenshots for demos.
+## Notes
+- The site now uses a modern responsive layout with hero imagery and polished sections.
+- The contact/demo forms currently show a browser confirmation and can be wired to a backend later.
