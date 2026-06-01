@@ -1,0 +1,12 @@
+/* Overrides for logo size and display */
+/* Larger header logo to show full wordmark */
+.brand img{width:140px;height:auto;max-height:140px;border-radius:2px;background:none;padding:0}
+.logo-banner img{width:120px;height:auto;max-height:120px;border-radius:6px;background:none;padding:0}
+
+/* Ensure header doesn't crop logo on small screens */
+@media(max-width:700px){
+	.brand img{width:96px;max-height:96px}
+}
+
+/* Ensure logo in footer or other small components doesn't overflow */
+.site-footer .author-logo img{width:48px;height:48px}
