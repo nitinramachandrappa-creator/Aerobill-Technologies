@@ -29,8 +29,8 @@
 .split-image p{margin:0;padding:1rem 1rem 1.25rem;font-weight:700;color:#0f172a;background:#fff}
 .blog-visual{margin:2rem 0 1.5rem;border-radius:28px;overflow:hidden;box-shadow:0 30px 60px rgba(15,23,42,.08);}
 .blog-visual img{width:100%;display:block;object-fit:cover;object-position:center center;max-height:420px}
-.page-hospitals .hero-panel{max-width:640px;min-height:320px;overflow:hidden;margin:auto;display:flex;align-items:center;justify-content:center}
-.page-hospitals .hero-panel img{width:100%;height:100%;object-fit:cover;object-position:center center;display:block}
+.page-hospitals .hero-panel{max-width:700px;min-height:440px;overflow:hidden;margin:auto;display:flex;align-items:center;justify-content:center}
+.page-hospitals .hero-panel img{width:auto;max-width:100%;height:auto;max-height:100%;object-fit:contain;object-position:center center;display:block}
 .homepage-hero .pillar{background:#ffffff;border:1px solid #e2e8f0;padding:1rem 1.25rem;border-radius:18px}
 .homepage-hero .pillar strong{display:block;font-size:1.35rem;color:#0f172a;margin-bottom:.25rem}
 .homepage-hero .pillar span{color:#64748b;font-size:.94rem}
