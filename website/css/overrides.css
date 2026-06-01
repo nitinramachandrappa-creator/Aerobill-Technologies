@@ -20,13 +20,17 @@
 .homepage-hero .hero-title{font-size:clamp(2.8rem,5vw,4.2rem);line-height:1.03;margin:0 0 1.3rem;color:#0f172a}
 .homepage-hero .hero-copy p{max-width:640px;font-size:1.05rem;line-height:1.8;color:#334155;margin-bottom:1.8rem}
 .homepage-hero .hero-actions{display:flex;flex-wrap:wrap;gap:1rem;margin-bottom:2rem}
-.homepage-hero .hero-panel{border-radius:28px;overflow:hidden;box-shadow:0 40px 80px rgba(15,23,42,.08);background:#fff;min-height:520px;display:flex;align-items:center;justify-content:center}
-.homepage-hero .hero-panel img{width:100%;height:100%;object-fit:cover;object-position:center center;display:block}
+.homepage-hero .hero-panel{border-radius:28px;overflow:hidden;box-shadow:0 40px 80px rgba(15,23,42,.08);background:#fff;min-height:620px;display:flex;align-items:center;justify-content:center;margin-top:-12px}
+.homepage-hero .hero-panel img{width:100%;height:100%;object-fit:cover;object-position:center 40%;display:block}
 .homepage-hero .hero-pillars{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem}
 .split-images{display:grid;gap:1rem}
 .split-image{border-radius:24px;overflow:hidden;box-shadow:0 20px 40px rgba(15,23,42,.08);background:#fff;}
-.split-image img{width:100%;height:260px;object-fit:cover;object-position:center center;display:block}
+.split-image img{width:100%;height:320px;object-fit:cover;object-position:center center;display:block}
 .split-image p{margin:0;padding:1rem 1rem 1.25rem;font-weight:700;color:#0f172a;background:#fff}
+.blog-visual{margin:2rem 0 1.5rem;border-radius:28px;overflow:hidden;box-shadow:0 30px 60px rgba(15,23,42,.08);}
+.blog-visual img{width:100%;display:block;object-fit:cover;object-position:center center;max-height:420px}
+.page-hospitals .hero-panel{max-width:540px;min-height:360px;overflow:hidden;margin:auto}
+.page-hospitals .hero-panel img{object-fit:contain;object-position:center center;display:block;min-height:320px}
 .homepage-hero .pillar{background:#ffffff;border:1px solid #e2e8f0;padding:1rem 1.25rem;border-radius:18px}
 .homepage-hero .pillar strong{display:block;font-size:1.35rem;color:#0f172a;margin-bottom:.25rem}
 .homepage-hero .pillar span{color:#64748b;font-size:.94rem}
